@@ -40,6 +40,6 @@ function turnClocktoHex(){
 
 
 function start(){
-	setInterval(function(){runClock()}, 100)
+	setInterval(function(){runClock()}, 500)
 }
 window.addEventListener("load",start);
